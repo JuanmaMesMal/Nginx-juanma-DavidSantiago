@@ -10,4 +10,5 @@ $TTL    86400
         86400 )     ; Negative Cache TTL
 ;
 @       IN  NS  debian.juanma.test.
+@       IN  A   192.168.56.10
 debian  IN  A   192.168.56.10
