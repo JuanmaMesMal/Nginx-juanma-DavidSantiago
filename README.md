@@ -13,3 +13,10 @@
 - Ahora necesitaremos añadirle permisos a esta carpeta, y abrimos la pagina web desde un navegador poniendo la ip de la maquina.
 ![Permisos](assets/img/Permisos.png)
 ![Web Ip](assets/img/PaginaWeb.png)
+
+- Creo un bloque de servidor con las directivas correctas.
+![Crear Nano](assets/img/CrearNanoRuta.png)
+
+- Creamos un archivo simbolico para dar de alta automaticamente y reiniciamos.
+![Crear archivo](assets/img/ArchivoSimbolico.png)
+- 
