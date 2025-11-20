@@ -23,4 +23,4 @@ sed -i 's/OPTIONS=.*/OPTIONS="-u bind -4"/' /etc/default/named
 
 echo "Reiniciando BIND..."
 systemctl restart bind9
-systemctl enable bind9
+systemctl enable named.service
