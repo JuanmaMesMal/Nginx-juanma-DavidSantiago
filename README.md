@@ -39,3 +39,8 @@
 - Para ver los errores en el log es de la misma forma pero accediento a error.log, en este caso sudo nano /var/log/nginx/error.log
 ![Error](assets/img/error.png)
 Como se ve, hay una lineae, esto significa que esta bien.
+
+# Instalacion docker y servidor Nginx 
+
+-Lo primero es instalar docker o si lo tienes instalado comprobar la version que tienes (docker --version), lo segundo es crear las carpetas para el sitio web que son /nginx/juanma-davids.test/html y conf y dentro del html hacemos un git clone (https://github.com/cloudacademy/static-website-example)
+![Creacion carpetas y clone](assets/img/Version.CreacionCarpetas.Clone.png)
