@@ -22,5 +22,14 @@
 
 ## Comprobar funcionamiento
 
-- Para hacerlo sin dns, hay que abrir bloc de notas como administrador, con esta ruta C:\Windows\System32\drivers\etc\hosts, y al final añadimos nuestra ruta, en n uestro caso es 192.168.56.10   juanma-davids.test
+- Para hacerlo sin dns, hay que abrir bloc de notas como administrador, con esta ruta C:\Windows\System32\drivers\etc\hosts, y al final añadimos nuestra ruta, en nuestro caso es 192.168.56.10   juanma-davids.test
 ![Sin DNS con Bloc](assets/img/SinDNS.png)
+
+- Para hacerlo con el dns, tenemos que ir a la maquina anfitriona y en el ethernet virtual lo editamos y ponemos de dns a la ip que le asignamos al dns (192.168.56.10)
+![ConDns](assets/img/configuracionEthernet.png)
+
+- Luego en la maquina virtual cambiamos el archivo juanma.test.dns y añadimos que si buscamos juanma-davids.juanma.test salga el html, hacemos esto por que no tenemos una zona creada para juanma-davids.test creada, seria otra opcion.
+![Configuracion juanma.test.dns](assets/img/configuracionEthernet.png)
+
+- y por ultimo cambiamos en el /sites-available/juanma-davidS.test y añadimos al server_name juanma-davidS.test
+![Configuracion sites-available](assets/img/ConfiguracionSitesAvailibles.png)
