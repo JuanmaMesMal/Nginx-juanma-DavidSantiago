@@ -23,4 +23,4 @@
 ## Comprobar funcionamiento
 
 - Para hacerlo sin dns, hay que abrir bloc de notas como administrador, con esta ruta C:\Windows\System32\drivers\etc\hosts, y al final añadimos nuestra ruta, en n uestro caso es 192.168.56.10   juanma-davids.test
-![Sin DNS](assets/img/SinDNS.png)
+![Sin DNS con Bloc](assets/img/SinDNS.png)
