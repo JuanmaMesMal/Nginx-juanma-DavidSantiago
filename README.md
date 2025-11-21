@@ -42,5 +42,21 @@ Como se ve, hay una lineae, esto significa que esta bien.
 
 # Instalacion docker y servidor Nginx 
 
--Lo primero es instalar docker o si lo tienes instalado comprobar la version que tienes (docker --version), lo segundo es crear las carpetas para el sitio web que son /nginx/juanma-davids.test/html y conf y dentro del html hacemos un git clone (https://github.com/cloudacademy/static-website-example)
+- Lo primero es instalar docker o si lo tienes instalado comprobar la version que tienes (docker --version), lo segundo es crear las carpetas para el sitio web que son /nginx/juanma-davids.test/html y conf y dentro del html hacemos un git clone (https://github.com/cloudacademy/static-website-example)
 ![Creacion carpetas y clone](assets/img/Version.CreacionCarpetas.Clone.png)
+
+- Creamos el archio Nginx con esta informacion dentro.
+![Crear archivo Nginx](assets/img/Nginxarchivo.png)
+
+- Luego creamos un contenedor docker para que ejecute Nginx
+![Creamos Docker](assets/img/CrearDocker.png)
+
+- Comprobamos que se esta ejecutando el docker.
+![Docker](assets/img/Docker.png)
+
+- Y luego vemos los logs.
+![Logs Docker](assets/img/LogDocker.png)
+
+-Nos vamos a una pestaña nueva, con localhost podemos visualizar que esta todo correcto.
+![Index](assets/img/index.png)
+
