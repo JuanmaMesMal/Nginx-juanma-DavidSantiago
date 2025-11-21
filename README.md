@@ -57,6 +57,18 @@ Como se ve, hay una lineae, esto significa que esta bien.
 - Y luego vemos los logs.
 ![Logs Docker](assets/img/LogDocker.png)
 
--Nos vamos a una pestaña nueva, con localhost podemos visualizar que esta todo correcto.
+- Nos vamos a una pestaña nueva, con localhost podemos visualizar que esta todo correcto.
 ![Index](assets/img/index.png)
 
+- Cambiamos el archivo hosts y añadimos la ip 172.0.0.1 y luego la buscamos en el buscador con esa ip
+![Editar hosts](assets/img/EditarHosts.png)
+![Comprobacion de pagina](assets/img/Web127.0.0.1.png)
+
+- comprobamos los logs
+![Comprobacion de logs](assets/img/comprobacionlogs.png)
+
+## Gestion del contenedor
+- Si queremos pararlo se usa docker stop, si quieres reiniciarlo docker restart y si quieres borrarlo primero se para y luego usamos docker rm
+![Parar maquina](assets/img/detener.png)
+![Reiniciar maquina](assets/img/reiniciar.png)
+![Borrar maquina](assets/img/eliminar.png)
