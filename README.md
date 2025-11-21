@@ -19,4 +19,3 @@
 
 - Creamos un archivo simbolico para dar de alta automaticamente y reiniciamos.
 ![Crear archivo](assets/img/ArchivoSimbolico.png)
-- 
