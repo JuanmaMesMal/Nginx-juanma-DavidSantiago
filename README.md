@@ -33,3 +33,9 @@
 
 - y por ultimo cambiamos en el /sites-available/juanma-davidS.test y añadimos al server_name juanma-davidS.test
 ![Configuracion sites-available](assets/img/ConfiguracionSitesAvailibles.png)
+
+- Para comprobar las peticiones se registra en un en acces.log, para acceder a ella sudo nano /var/log/nginx/access.log
+![Acceso](assets/img/acces.png)
+- Para ver los errores en el log es de la misma forma pero accediento a error.log, en este caso sudo nano /var/log/nginx/error.log
+![Error](assets/img/error.png)
+Como se ve, hay una lineae, esto significa que esta bien.
